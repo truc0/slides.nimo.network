@@ -1,11 +1,17 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# NIMO 2021 Web Tutor
 
-To start the slide show:
+To build the slide show, use `make` command:
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+```
+make
+```
 
-Edit the [slides.md](./slides.md) to see the changes.
+The built files are stored in `dist/lesson-0?` which `?` is the index of lesson.
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+You can also use:
+
+```
+make lesson-0?
+```
+
+to build a specified slide.
