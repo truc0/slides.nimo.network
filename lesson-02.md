@@ -415,3 +415,18 @@ layout: section
 You have publish your website to the Internet!
 
 Visit `https://<username>.nimo.network` to see your self introduction!
+
+---
+
+# Further
+
+- Shell Tutorial by IPADS: https://www.bilibili.com/video/BV1y44y1v7c3
+- Nginx Beginner's Guide: http://nginx.org/en/docs/beginners_guide.html
+
+## Task
+
+<iframe height="300" style="width: 100%;" scrolling="no" title="Ex03 - Cards" src="https://codepen.io/truco/embed/KjxBJm?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/truco/pen/KjxBJm">
+  Ex03 - Cards</a> by Bill (<a href="https://codepen.io/truco">@truco</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
