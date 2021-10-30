@@ -22,6 +22,25 @@ HTTP & Linux Operation Basics
 
 ---
 
+# Preface
+
+- This lesson is not a vital part of frontend development, it does not matter if you do not understand.
+- [w3school](https://www.w3schools.com) is a good website to learn basic HTML and CSS
+- [cssreference.io](https://csreference.io) is a good website for learning CSS
+- [CSS Tricks](https://css-tricks.com** is a good website for learning the latest technology of CSS
+
+## Next lesson
+
+We will talk about...
+
+- CSS Flexbox
+- CSS Grid
+- Javascript Basics
+
+**Please** make sure you read [Commonly used tools](https://nimo.network/post/00-widely-used-tools/) and install tools mentioned in the passage.
+
+---
+
 # What happened when you visit a website?
 
 A classical but meaningful problem.
@@ -423,10 +442,17 @@ Visit `https://<username>.nimo.network` to see your self introduction!
 - Shell Tutorial by IPADS: https://www.bilibili.com/video/BV1y44y1v7c3
 - Nginx Beginner's Guide: http://nginx.org/en/docs/beginners_guide.html
 
-## Task
+---
+
+## Task 1
+
+https://net.sjtu.edu.cn/dorm/index.php is a website that shows status of all switch in Minhang Campus. Please rewrite this page to make it looks better.
+
+## Task 2
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="Ex03 - Cards" src="https://codepen.io/truco/embed/KjxBJm?default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/truco/pen/KjxBJm">
   Ex03 - Cards</a> by Bill (<a href="https://codepen.io/truco">@truco</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+
