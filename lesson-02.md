@@ -26,8 +26,8 @@ HTTP & Linux Operation Basics
 
 - This lesson is not a vital part of frontend development, it does not matter if you do not understand.
 - [w3school](https://www.w3schools.com) is a good website to learn basic HTML and CSS
-- [cssreference.io](https://csreference.io) is a good website for learning CSS
-- [CSS Tricks](https://css-tricks.com** is a good website for learning the latest technology of CSS
+- [cssreference.io](https://cssreference.io) is a good website for learning CSS
+- [CSS Tricks](https://css-tricks.com) is a good website for learning the latest technology of CSS
 
 ## Next lesson
 
