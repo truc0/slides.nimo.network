@@ -468,8 +468,9 @@ Vite is a fast build tool for developing web projects. A dev server with HMR (Ho
 ## Install Vite
 
 ```bash
-npx init vite@latest  # run this if you use npm
+npm init vite@latest  # run this if you use npm
 # yarn create vite    # run this if you use yarn
+# **Notice** cd to the directory before running the following commands
 ```
 
 ## Install SASS
@@ -492,18 +493,16 @@ npm run dev           # run this if you use npm
 
 How to use?
 
-- Modify `index.html` file as following:
+- Rename `style.css` to `style.scss`
 
-```html
-<head>
-<!-- other tags -->
-<style lang="scss">
-  h1 { color: red; }
-</style>
-</head>
+- Add following lines to `main.js` file:
+
+```js
+import './style.scss'
+// delete `import './style.css'`
 ```
 
-- Modify content in `style` tag to try `scss`
+- Modify content in `style` tag to try `scss` (use `nesting` to verify it works)
 
 ## Another way to try scss/sass is use Codepen
 
@@ -544,7 +543,7 @@ Each CSS framework have different design guideline. Most of them provide a basic
 ## Pros
 - Don't need CSS file anymore (x
 - Better integration with Javscript
-- (Personal Experience) Useful when using template language
+- (Personal Experience** Useful when using template language
 
 ## Cons
 - The class name will be very long for complex feature
@@ -563,7 +562,7 @@ Each CSS framework have different design guideline. Most of them provide a basic
 
 ## Usage
 
-<br>
+**Notice**: `cd` to the project first before running following commands.
 
 ```bash
 npm i -D bootstrap @popperjs/core      # run this if you use npm
