@@ -92,7 +92,7 @@ What is important on the website?
 
 <div class="flex items-center justify-center">
 
-<img src="/lesson-04/design.png" class="h-64">
+<img src="/lesson-05/design.png" class="h-64">
 
 </div>
 
