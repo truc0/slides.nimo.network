@@ -31,6 +31,7 @@ lesson-03 : dist/lesson-03
 lesson-04 : dist/lesson-04
 lesson-05 : dist/lesson-05
 lesson-07 : dist/lesson-07
+lesson-08 : dist/lesson-08
 
 .PHONY : clean
 clean :
