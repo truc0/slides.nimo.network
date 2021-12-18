@@ -415,6 +415,8 @@ npm run start
 1. This program is not fully **RESTful**
 2. Take a look at `README.md` and `index.js` to know how this works
 
+<img class="my-16" src="/lesson-08/form.png">
+
 ---
 layout: cover 
 background: 'https://source.unsplash.com/random/1080x720'
