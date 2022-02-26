@@ -1,6 +1,6 @@
 dest = dist
 
-all : lesson-01 lesson-02 lesson-03 lesson-04 lesson-05 lesson-07 lesson-08
+all : lesson-01 lesson-02 lesson-03 lesson-04 lesson-05 lesson-07 lesson-08 lesson-09
 
 dist/lesson-01 : lesson-01.md
 	yarn build lesson-01.md --out $(dest)/lesson-01/ --base /lesson-01/ 
@@ -23,6 +23,9 @@ dist/lesson-07 : lesson-07.md
 dist/lesson-08 : lesson-08.md
 	yarn build lesson-08.md --out $(dest)/lesson-08/ --base /lesson-08/ 
 
+dist/lesson-09 : lesson-09.md
+	yarn build lesson-09.md --out $(dest)/lesson-09/ --base /lesson-09/ 
+
 
 # alias
 lesson-01 : dist/lesson-01
@@ -32,6 +35,7 @@ lesson-04 : dist/lesson-04
 lesson-05 : dist/lesson-05
 lesson-07 : dist/lesson-07
 lesson-08 : dist/lesson-08
+lesson-09 : dist/lesson-09
 
 .PHONY : clean
 clean :
