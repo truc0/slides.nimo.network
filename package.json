@@ -3,11 +3,12 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev",
-    "export": "slidev export"
+    "export": "slidev export",
+    "build-all": "slidev build *.md"
   },
   "dependencies": {
-    "@slidev/cli": "^0.27.9",
-    "@slidev/theme-apple-basic": "^0.20.0",
+    "@slidev/cli": "^0.48.0",
+    "@slidev/theme-apple-basic": "^0.25.0",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
   },

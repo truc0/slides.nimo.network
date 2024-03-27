@@ -57,7 +57,7 @@ Now you should use `notes:detail` to reference this route.
 
 ## Examples
 
-```jinja2
+```jinja-html
 <a href="{% url 'notes:detail' 10 %}">Link to #10</a>
 ```
 
@@ -75,7 +75,7 @@ The `<form>` tag is used to create a form in HTML file.
 
 There is usually a submit button in the form for submitting the data to the server.
 
-```jinja2
+```jinja-html
 <form action="{% url 'notes:index' %}" method="POST">
 
 {% csrf_token %} <!-- Learn more: https://developer.mozilla.org/zh-CN/docs/Glossary/CSRF -->
@@ -162,7 +162,7 @@ def create(request):
 ```
 Remember add `path('create', views.create, name='create')` to `urls.py`.
 
-```jinja2
+```jinja-html
 <!-- snippets/templates/create.html -->
 <form action="{% url 'notes:index' %}" method="POST">
 {% csrf_token %} <!-- Learn more: https://developer.mozilla.org/zh-CN/docs/Glossary/CSRF -->
@@ -180,7 +180,7 @@ The built-in widgets (in `django.forms` package) supports settings attributes of
 
 The attributes are passed as a `dict` to the widget class init function.
 
-```jinja2
+```jinja-html
 #snippets/forms.py
 from django import forms
 
