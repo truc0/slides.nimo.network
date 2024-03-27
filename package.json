@@ -16,5 +16,5 @@
   "devDependencies": {
     "playwright-chromium": "^1.16.0"
   },
-  "packageManager": "yarn@1.22"
+  "packageManager": "yarn@1.22.19"
 }
