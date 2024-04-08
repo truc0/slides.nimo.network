@@ -4,7 +4,7 @@
     "build": "slidev build",
     "dev": "slidev",
     "export": "slidev export",
-    "build-all": "slidev build *.md"
+    "build-all": "node build.js"
   },
   "dependencies": {
     "@slidev/cli": "^0.48.0",
